@@ -1,5 +1,9 @@
 .App {
   text-align: center;
+  border: 2px solid grey;
+  width: 600px;
+  margin: 40px 0;
+  padding: 40px;
 }
 
 .App-logo {
@@ -35,4 +39,31 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.bai1, .bai2, .bai3 {
+  margin: 30px 40px;
+  text-align: left;
+}
+.title3 {
+  font-size: 30px;
+  font-weight: bolder;
+
+}
+#input3 {
+  width: 300px;
+}
+.button3 {
+  margin: 10px ;
+  padding: 10px;
+  color: white;
+  font-weight: bolder;
+  background-color: rgb(98, 98, 230);
+  border: 3px solid rgb(2, 54, 88);
+  border-radius: 20px;
+}
+#output {
+  color: green;
+  font-weight: bolder;
+  font-size: 20px;
 }
